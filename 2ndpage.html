@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .topnav {
+overflow: hidden;
+background-color: white;
+border-radius: 0px;
+position: -webkit-sticky; /* Safari */
+position: sticky;
+top: 0;
+}
+.topnav a {
+float: right;
+color: black;
+text-align: center;
+padding: 16px 16px;
+text-decoration: none;
+font-size: 17px;
+border-radius: 0px;
+}
+.topnav a:hover {
+background-color: rgb(238, 232, 170) ;
+color: black;
+}
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0px;
+  width: 300px;
+  background-color: lightgray;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+/*.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}*/
+
+.sidebar a:hover:not(.active) {
+  background-color:rgb(238, 232, 170);
+  color: black;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color:white ;
+}
+
+.flex-container > div {
+  background-color: white;
+  width: 1300px;
+  margin-left: 100px;
+  margin-bottom:50px;
+  margin-top: 60px;
+  text-align: center;
+  line-height: 250px;
+  font-size: 30px;
+  border-radius:5px 5px 5px 5px;
+  box-shadow:2px 2px 2px black;
+}
+#img{
+     float:left;
+    padding-top: 0px;
+     width: 250px;
+    margin-left: 20px;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    height: 250px; 
+}
+/* .title{
+    float:inline-start;
+     font-size: 15px;
+     color: rgb(49, 13, 116);
+ }*/
+ .fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: white;
+  color:black;
+  justify-content: center;
+}
+.fa-twitter {
+  background: white;
+  color: black;
+}
+.fa-linkedin {
+  background: white;
+  color: black;
+}
+
+
+
+</style>
+</head>
+<body>
+    <div class="topnav"><a class="active" href="index.php#home">Home</a><a href="index.php#contact">Contact</a>
+        <a href="index.#about">About</a>
+        </div>
+        <!--<div class="sidebar">
+            <pre>
+
+
+
+
+
+
+
+
+
+            
+            <a href="#news" style="text-align: center;font-family: Lato, sans-serif;">Near Me</a>
+            <a href="#contact" style="text-align: center;font-family: Lato, sans-serif;">Filter By Price</a>
+            <a href="#about" style="text-align: center;font-family: Lato, sans-serif;">Sort</a>
+            <a href="#about" style="text-align: center;font-family: Lato, sans-serif;">Image Gallery</a>
+            </pre>
+          </div>-->
+          <div class="flex-container">
+            <div>
+              <a href="https://www.google.com" style="text-decoration: none;">
+             <img src="banquethall1.jpg"  alt="gtu" id="img">
+              <p  style="font-size: 30px;text-align: start;margin-top: -100px;margin-left: 10px;font-family: Arabic Typesetting;font-weight: bold;color: black;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Banquet Halls</p>
+             <p  style="font-size: 15px;text-align: start;margin-top: -200px;margin-left: 10px;font-family: Arabic Typesetting;font-weight: bold;color: black;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If u want your occasion to be private and with great decor then <span style="color: coral;font-weight: bold;">Select Me</span></p>
+            </a>  
+            </div>
+            <div>
+              <a href="https://www.google.com" style="text-decoration: none;">
+                <img src="openbanquet.jpg"  alt="gtu" id="img">
+                 <p  style="font-size: 30px;text-align: start;margin-top: -100px;margin-left: 10px;font-family: Arabic Typesetting;font-weight: bold;color: black;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Open Banquet</p>
+                 <p  style="font-size: 15px;text-align: start;margin-top: -200px;margin-left: 10px;font-family: Arabic Typesetting;font-weight: bold;color: black;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If u want your occasion to be in the fresh air and with sweet smell of flowers then <span style="color: coral;font-weight: bold;">Select Me</span></p>
+                </a>
+            </div>
+            <div>
+              <a href="https://www.google.com" style="text-decoration: none;">
+              <img src="gathering-halls-header-1.jpg"  alt="gtu" id="img">
+               <p  style="font-size: 30px;text-align: start;margin-top: -100px;margin-left: 10px;font-family: Arabic Typesetting;font-weight: bold;color: black;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gathering Halls</p>
+               <p  style="font-size: 15px;text-align: start;margin-top: -200px;margin-left: 10px;font-family: Arabic Typesetting;font-weight: bold;color: black;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bored in your daily life and want a small get together with close ones then <span style="color: coral;font-weight: bold;">Select Me</span></p>
+              </a>
+              </div>
+            <div>
+              <a href="https://www.google.com" style="text-decoration: none;">
+                <img src="farmhouse.jpg"  alt="gtu" id="img"> 
+                <p  style="font-size: 30px;text-align: start;margin-top: -100px;margin-left: 10px;font-family: Arabic Typesetting;font-weight: bold;color: black;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Farmhouse</p>
+                <p  style="font-size: 15px;text-align: start;margin-top: -200px;margin-left: 10px;font-family: Arabic Typesetting;font-weight: bold;color: black;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If u want your occasion to be in leisure and only with your dear ones then <span style="color: coral;font-weight: bold;">Select Me</span></p>
+              </a>
+            </div>  
+          </div>
+          <div>
+            <form>
+              &nbsp;&nbsp;&nbsp;<br>
+              &nbsp;&nbsp; &nbsp;<br>
+              &nbsp;&nbsp;&nbsp;<br>
+              &nbsp;&nbsp; &nbsp;<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+              <a href="https://www.twitter.com/" target="_blank"  class="fa fa-twitter"></a>
+              <a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
+              &nbsp;&nbsp;&nbsp;<br>
+              &nbsp;&nbsp; &nbsp;<br>
+              <p class="font_10" style="text-align:center; line-height:1.79em;">
+              <span class="color_15">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;©2020  wwww.Banquest.tk All rights reserved!</span>
+            </p>
+            <br>
+        </form>
+          </div>         
+</body>
+</html>
